@@ -8,7 +8,7 @@ function Navbar() {
           <div className="navbar-site-title">
               Dyniel Keith S. Cataluña
           </div>
-          <div className="navbar-links-wrap">
+          <div className="navbar-links-wrap flex flex-row">
              <p className="navbar-link">
                 <a href="#">About</a>
               </p>

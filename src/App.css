@@ -61,10 +61,10 @@
   justify-content: space-between;
 }
 
-.navbar-links-wrap {
+/* .navbar-links-wrap {
   display: flex;
   flex-direction: row;
-}
+} */
 
 .navbar-link{
   padding-left: 1rem;
@@ -73,16 +73,4 @@
 
 .container {
   padding: 3rem;
-}
-
-.flex {
-  display: flex;
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
-.flex-col {
-  flex-direction: row;
 }

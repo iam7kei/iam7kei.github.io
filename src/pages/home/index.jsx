@@ -6,7 +6,7 @@ function Home() {
   return (
     <DefaultLayout>
       <div className="home-hero-header">
-        <div className="home-hero-header-row">
+        <div className="home-hero-header-row flex flex-row">
 
         </div>
         <div className="home-hero-header-row">
