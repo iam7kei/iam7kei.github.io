@@ -594,21 +594,25 @@ video {
   display: flex;
 }
 
+.w-2\/3{
+  width: 66.666667%;
+}
+
 .flex-row{
   flex-direction: row;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.justify-between{
+  justify-content: space-between;
 }
 
-.font-bold{
-  font-weight: 700;
+.text-8xl{
+  font-size: 6rem;
+  line-height: 1;
 }
 
-.underline{
-  text-decoration-line: underline;
+.font-extrabold{
+  font-weight: 800;
 }
 
 :root {
@@ -637,7 +641,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
