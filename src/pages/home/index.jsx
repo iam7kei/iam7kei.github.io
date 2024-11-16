@@ -1,7 +1,8 @@
 import React from "react";
 import DefaultLayout from "../../components/layouts";
 import { FaArrowRight } from "react-icons/fa";
-import { FaGithub,FaLinkedin  } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
+import Article from "../../components/slider/cards/article";
 
 function Home() {
   return (
@@ -38,7 +39,10 @@ function Home() {
               <p className="italic">LinkedIn</p>
             </button>
           </a>
-      </div>
+        </div>
+        <div>
+          <Article />
+        </div>
      </div>
 
     </DefaultLayout>
