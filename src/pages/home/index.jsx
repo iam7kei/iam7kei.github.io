@@ -2,7 +2,8 @@ import React from "react";
 import DefaultLayout from "../../components/layouts";
 import { FaArrowRight } from "react-icons/fa";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
-import Article from "../../components/slider/cards/article";
+import ArticleSlider from "../../components/slider/article-slider"
+
 
 function Home() {
   return (
@@ -40,9 +41,7 @@ function Home() {
             </button>
           </a>
         </div>
-        <div>
-          <Article />
-        </div>
+        <ArticleSlider />
      </div>
 
     </DefaultLayout>

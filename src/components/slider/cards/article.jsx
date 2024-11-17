@@ -1,10 +1,10 @@
 import React from "react"
 
-function Article() {
+function Article({title, description, backgroundImage, url}) {
   return (
     <div
       style={{
-        backgroundImage: "url(https://miro.medium.com/v2/resize:fit:1200/1*udvSMrSVGOgD4fxjMJHbOw.jpeg)",
+        backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "contain",
         height: 250,
         width: 550,
@@ -16,25 +16,25 @@ function Article() {
       <div style={
         {
           backgroundColor: "#00000080",
-          minWidth: "60%",
-          maxWidth: "50%",
-          width: "auto",
-          right: 0,
-          top: 0,
+          width: "50%",
           padding: "2rem",
           height: "100%",
           position: "absolute"
         }
       }
-        className="flex flex-col space-y-3"
+        className="flex flex-col justify-between h-full right-0 top-0"
       >
-        <p className="font-extrabold text-3xl">How to install Vite</p>
-        <p>A step-by-step process on how to install Vite on your machine</p>
-        <button className="btn btn-primary px-7 py-2">
-          <p className="text-sm">
-            Read Article
-          </p>
-        </button>
+        <div className="flex flex-col space-y-3">
+          <p className="font-extrabold text-3xl">{title}</p>
+          <p>{description}</p>
+        </div>
+        <a href={url} className="bottom-0">
+          <button className="btn btn-primary px-7 py-2">
+            <p className="text-sm">
+              Read Article
+            </p>
+          </button>
+        </a>
       </div>
     </div>
   )
