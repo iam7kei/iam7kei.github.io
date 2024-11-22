@@ -4,8 +4,8 @@ import {
   BrowserRouter, Routes, Route
 } from "react-router-dom";
 import Home from "../pages/home/index";
-import DefaultLayout from "../components/layouts";
 import _404 from "../pages/error/_404";
+import About from "../pages/about"
 
 export const router = createBrowserRouter([
   {
@@ -18,9 +18,8 @@ const AppRouter = () => {
   return (
     <BrowserRouter>
     <Routes>
-        <Route path="/" element={<Home />} >
-          <Route index element={<Home />} />
-        </Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="*" element={<_404 />} />
       </Routes>
     </BrowserRouter>
