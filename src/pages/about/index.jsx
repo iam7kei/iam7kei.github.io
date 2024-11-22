@@ -35,7 +35,13 @@ function About() {
           </div>
           <div className="w-1/2">
             <div className="flex px-24 w-full items-center justify-center">
-              <img src="src/assets/about.jpg" className="w-80 rounded-2xl" />
+              <img src="src/assets/about.jpg" className="w-80 rounded-2xl z-10" />
+              <div
+                className="absolute top-14 border border-white rounded-full p-96 z-0"
+                style={{
+                  right: "-10%"
+                }}
+              ></div>
             </div>
           </div>
         </div>
