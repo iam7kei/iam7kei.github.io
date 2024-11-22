@@ -1,7 +1,7 @@
 export const skills = [
   {
     type: "Front-end",
-    skills: ["TypeScript", "React", "NextJS", "React Native", "jQuery"],
+    skills: ["TypeScript", "React", "NextJS", "React Native", "Webflow", "jQuery"],
   },
   {
     type: "Back-end",
