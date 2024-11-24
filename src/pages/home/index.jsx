@@ -7,7 +7,7 @@ import ArticleSlider from "../../components/slider/article-slider"
 
 function Home() {
   return (
-    <DefaultLayout>
+    <DefaultLayout title="Home">
       <div className="flex space-y-10 w-auto flex-col justify-center">
         <div className="home-hero-header w-auto space-y-10">
           <div className="flex flex-row items-center justify-center space-x-10">
