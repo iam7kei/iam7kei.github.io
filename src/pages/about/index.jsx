@@ -20,7 +20,7 @@ function About() {
   }
 
   return (
-    <DefaultLayout>
+    <DefaultLayout title="About">
       <div className="flex space-y-10 w-auto flex-col justify-center">
         <div className="home-hero-header w-auto space-y-10 mb-20">
           <div className="flex flex-row items-center justify-center space-x-10">
