@@ -18,12 +18,12 @@ function Home() {
           </div>
           <div className="home-hero-header-row">
               <div className="flex flex-row justify-center space-x-4">
-                <button className="btn btn-primary px-20 py-3">
+                <button className="btn btn-primary px-20 py-3 flex flex-row space-x-3 items-center justify-center">
                   <p className="text-2xl">
-                    Projects
-                  </p>
+                    Projects 
+                </p>
+                <FaArrowRight />
                 </button>
-                <button className="btn btn-primary"><FaArrowRight /></button>
               </div>
           </div>
       </div>
