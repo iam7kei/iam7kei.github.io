@@ -26,10 +26,10 @@ function _404() {
           </div>
           <div className="home-hero-header-row">
               <div className="flex flex-row justify-center space-x-4">
-                  <button className="btn btn-primary" onClick={onBackToHomeClick}><FaArrowLeft /></button>
-                  <button className="btn btn-primary px-20 py-3" onClick={onBackToHomeClick}>
+                  <button className="btn btn-primary px-20 py-3 flex flex-row space-x-3 items-center justify-center" onClick={onBackToHomeClick}>
+                    <FaArrowLeft />
                     <p className="text-2xl">
-                      Back to home
+                      Back to home 
                     </p>
                   </button>
               </div>
